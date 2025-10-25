@@ -18,8 +18,6 @@ Notlar:
 
 Hızlı Çalıştır (tek satır, irm | iex):
 
-- `irm https://raw.githubusercontent.com/byGOG/Install-NVIDIADriver/main/Install-NVIDIAApp.ps1 | iex`
-
-Gerekirse geçici olarak çalıştırma ilkesi atlamak için:
-
-- `powershell -ExecutionPolicy Bypass -NoProfile -Command "irm https://raw.githubusercontent.com/byGOG/Install-NVIDIADriver/main/Install-NVIDIAApp.ps1 | iex"`
+```powershell
+irm https://raw.githubusercontent.com/byGOG/Install-NVIDIADriver/main/Install-NVIDIAApp.ps1 | iex
+```
